@@ -3,11 +3,11 @@
 const express = require('express')
 
 const PORT = 8000
-const HOST = '0.0.0.0'
+const HOST = '10.0.0.0/24'
 
 const app = express()
 app.get('/', (req, res) => {
-    res.send('Hello world!\n')
+    res.send('Yogi Zigova Eka Putra\n')
 })
 
 app.listen(PORT, HOST)
